@@ -13,7 +13,7 @@ import {
   MasanaoSection,
   WebScraperSection
 } from './components/Sections';
-
+// 
 const App: React.FC = () => {
   const revealRef = useRef<HTMLDivElement>(null);
   const [menuOpen, setMenuOpen] = useState(false);
